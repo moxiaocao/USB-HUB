@@ -22,15 +22,6 @@ void Usb_Control_Set(Usb *usb) {
 }
 
 
-void Usb_Value_Get(Usb* usb){
-    for(char i =0;i<6;i++){
-
-        if(usb->usb_pin_state[i] == 1){
-            usb->data[i] = analogRead(usb_pins[i]);
-        }
-        else usb->data[i] = 0;
-    }
-}
 
 void Input_Signal_Set(DataSource typec)
 {
@@ -51,11 +42,9 @@ void Usb_Control_Init(Usb* usb) {
         pinMode(usb_adc_pins[i], INPUT);
         usb->usb_pin_state[i] = 0;
     }
-
-    Usb_Control_Set(&usb);
-
+    // Usb_Control_Set(&usb);
     /*******EN下拉使能，IN下拉S1X组上拉S2X组******/
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 1; i++) {
         pinMode(typec_pins[i], OUTPUT);
         digitalWrite(typec_pins[i], LOW);
     }

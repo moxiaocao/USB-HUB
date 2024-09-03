@@ -18,7 +18,6 @@ typedef struct {
 
 void Usb_Control_Init(Usb* usb);
 void Usb_Control_Set(Usb *usb);
-void Usb_Value_Get(Usb* usb);
 void Input_Signal_Set(DataSource typec);
 
 

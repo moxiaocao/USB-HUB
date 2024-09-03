@@ -191,11 +191,11 @@ static void USB_control_2_sw_4_event_handler (lv_event_t *e)
 	flag.control_sw_4=lv_obj_has_state(ui->USB_control_2_sw_4, LV_STATE_CHECKED);					 /* 返回值：bool类型，开 :1；关: 0 */
 	if(flag.control_sw_4==0)
 	{
-		usb.usb_pin_state[3] = 0;
+		usb.usb_pin_state[4] = 0;
 		Serial.printf("OFF");}
 	else if(flag.control_sw_4==1)
 	{
-		usb.usb_pin_state[3] = 1;
+		usb.usb_pin_state[4] = 1;
 		Serial.printf("ON");}
 }
 static void USB_control_2_sw_5_event_handler (lv_event_t *e)
@@ -205,11 +205,11 @@ static void USB_control_2_sw_5_event_handler (lv_event_t *e)
 	flag.control_sw_5=lv_obj_has_state(ui->USB_control_2_sw_5, LV_STATE_CHECKED);					 /* 返回值：bool类型，开 :1；关: 0 */
 	if(flag.control_sw_5==0)
 	{
-		usb.usb_pin_state[4] = 0;
+		usb.usb_pin_state[3] = 0;
 		Serial.printf("OFF");}
 	else if(flag.control_sw_5==1)
 	{
-		usb.usb_pin_state[4] = 1;
+		usb.usb_pin_state[3] = 1;
 		Serial.printf("ON");}
 }
 static void USB_control_2_sw_6_event_handler (lv_event_t *e)

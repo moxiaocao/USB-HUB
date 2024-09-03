@@ -429,12 +429,13 @@ void setup_scr_USB_control_2(lv_ui *ui)
 	lv_obj_set_style_pad_left(ui->USB_control_2_label_8, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->USB_control_2_label_8, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
+
 	//The custom code of USB_control_2.
 	if(flag.control_sw_1==1)
 	{
 		lv_obj_add_state(ui->USB_control_2_sw_1, LV_STATE_CHECKED);
 	}
-	if(flag.control_sw_2=1)
+	if(flag.control_sw_2==1)
 	{
 		lv_obj_add_state(ui->USB_control_2_sw_2, LV_STATE_CHECKED);
 	}
