@@ -15,9 +15,6 @@ hub-end
 │  ├─ Bool
 │  │  ├─ Bool.cpp
 │  │  └─ Bool.h
-│  ├─ control_usb
-│  │  ├─ control_usb.cpp
-│  │  └─ control_usb.h
 │  ├─ encoder
 │  │  ├─ encoder.cpp
 │  │  └─ encoder.h
@@ -33,25 +30,6 @@ hub-end
 │  │     ├─ guider_customer_fonts
 │  │     │  └─ guider_customer_fonts.h
 │  │     ├─ guider_fonts
-│  │     │  ├─ lv_font_1_12.c
-│  │     │  ├─ lv_font_1_16.c
-│  │     │  ├─ lv_font_1_22.c
-│  │     │  ├─ lv_font_Acme_Regular_12.c
-│  │     │  ├─ lv_font_Acme_Regular_16.c
-│  │     │  ├─ lv_font_Acme_Regular_18.c
-│  │     │  ├─ lv_font_Alatsi_Regular_18.c
-│  │     │  ├─ lv_font_Alatsi_Regular_22.c
-│  │     │  ├─ lv_font_FontAwesome5_22.c
-│  │     │  ├─ lv_font_FZSTK_12.c
-│  │     │  ├─ lv_font_FZSTK_16.c
-│  │     │  ├─ lv_font_FZSTK_22.c
-│  │     │  ├─ lv_font_montserratMedium_12.c
-│  │     │  ├─ lv_font_montserratMedium_16.c
-│  │     │  ├─ lv_font_montserratMedium_18.c
-│  │     │  ├─ lv_font_montserratMedium_20.c
-│  │     │  ├─ lv_font_montserratMedium_29.c
-│  │     │  ├─ lv_font_SourceHanSerifSC_Regular_12.c
-│  │     │  └─ lv_font_SourceHanSerifSC_Regular_18.c
 │  │     ├─ gui_guider.c
 │  │     ├─ gui_guider.h
 │  │     ├─ images
